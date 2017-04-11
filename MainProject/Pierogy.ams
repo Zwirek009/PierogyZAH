@@ -71,7 +71,11 @@ Model Main_Pierogy {
             or add statements that require the Data Management module to be initialized."
         }
     }
-    Procedure MainExecution;
+    Procedure MainExecution {
+        Body: {
+            solve Maksymalizacja_zysku;
+        }
+    }
     Procedure PreMainTermination {
         Body: {
             return DataManagementExit();

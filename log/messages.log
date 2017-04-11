@@ -1,1 +1,5 @@
-﻿There is 80.109 Mb in use.
+﻿There is 80.668 Mb in use.
+Warning: The parameter "Cena" is not initialized (default values are used).
+Warning: The parameter "Koszt_produkcji" is not initialized (default values are used).
+Warning: The parameter "Zapotrzebowanie" is not initialized (default values are used).
+Warning: The parameter "Maksymalna_produkcja" is not initialized (default values are used).
