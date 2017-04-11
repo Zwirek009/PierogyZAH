@@ -1,0 +1,11 @@
+Semantic error at line 51, column 1.
+The identifier "Ilosc" has not been declared.
+Syntax error at line 70, column 33.
+The symbol ")" is not expected.
+Semantic error at line 81, column 5.
+The index "s" already has a scope.
+The mandatory attribute "definition" is missing from constraint "Ogr_na_sume_sprzedanych".
+Semantic error at line 99, column 45.
+The declared constraint "Ogr_na_sume_sprzedanych" has not been defined.
+Syntax error at line 105, column 26.
+Unexpected end of the definition of constraint "Ogr_na_sume_sprzedanych".
