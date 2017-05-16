@@ -1,8 +1,34 @@
-Warning at line 1 in user-defined function section "MainExecution".
-The parameter "Cena" is not initialized (default values are used).
-Warning at line 1 in user-defined function section "MainExecution".
-The parameter "Koszt_produkcji" is not initialized (default values are used).
-Warning at line 1 in user-defined function section "MainExecution".
-The parameter "Zapotrzebowanie" is not initialized (default values are used).
-Warning at line 1 in user-defined function section "MainExecution".
-The parameter "Maksymalna_produkcja" is not initialized (default values are used).
+Semantic error.
+The undeclared "i" is not an index.
+Semantic error at line 113, column 1.
+The identifier "i" has not been declared.
+Semantic error at line 115, column 1.
+The undeclared "i" is not an index.
+Semantic error at line 116, column 1.
+The identifier "i" has not been declared.
+Semantic error at line 125, column 1.
+The undeclared "i" is not an index.
+Semantic error at line 125, column 1.
+The identifier "i" has not been declared.
+Semantic error at line 422, column 1.
+The mandatory attribute "subset of" of set "Wiek_pierogow" has not been specified.
+Semantic error at line 422, column 1.
+The mandatory attribute "subset of" of set "Wiek_pierogow" has not been specified.
+Semantic error at line 432, column 1.
+The mandatory attribute "subset of" of set "Wiek_pierogow" has not been specified.
+Semantic error at line 496, column 10.
+The mandatory attribute "subset of" of set "Wiek_pierogow" has not been specified.
+Semantic error at line 506, column 1.
+The mandatory attribute "subset of" of set "Wiek_pierogow" has not been specified.
+Semantic error at line 566, column 1.
+The mandatory attribute "subset of" of set "Wiek_pierogow" has not been specified.
+Semantic error at line 568, column 1.
+The mandatory attribute "subset of" of set "Wiek_pierogow" has not been specified.
+Semantic error at line 570, column 1.
+The mandatory attribute "subset of" of set "Wiek_pierogow" has not been specified.
+Usage of the GAMS language in an AIMMS model at line 599.
+The undeclared identifier "~i" is used as a running index.
+Usage of the GAMS language in an AIMMS model at line 603, column 1.
+The undeclared identifier "~i" is used as a running index.
+Domain violation at line 917, column 79.
+The scope of index "r" has not been specified.
