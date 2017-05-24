@@ -1,1 +1,44 @@
-﻿There is 81.184 Mb in use.
+﻿There is 81.141 Mb in use.
+Semantic error.
+The undeclared "" is not an index.
+
+Warning: The row "Dodatniosc_magazynu(Galeria_ursynow,Niedziela,Miesne,0_dni)" with type >= is made obsolete because of row "Brak_pracy_fabryki_w_niedziele(Miesne,Galeria_ursynow)" with type = in the generated mathematical program "Maksymalizacja_zysku_podst_1", see also the option "Warning_duplicate_row".
+Warning: The row "Dodatniosc_magazynu(Galeria_ursynow,Niedziela,Grzybowe,0_dni)" with type >= is made obsolete because of row "Brak_pracy_fabryki_w_niedziele(Grzybowe,Galeria_ursynow)" with type = in the generated mathematical program "Maksymalizacja_zysku_podst_1", see also the option "Warning_duplicate_row".
+Warning: The row "Dodatniosc_magazynu(Galeria_ursynow,Niedziela,Serowe,0_dni)" with type >= is made obsolete because of row "Brak_pracy_fabryki_w_niedziele(Serowe,Galeria_ursynow)" with type = in the generated mathematical program "Maksymalizacja_zysku_podst_1", see also the option "Warning_duplicate_row".
+Warning: Only 3 out of 25 duplicate row warnings were reported. 
+See also option limit_reported_duplicate_column_row_warnings.
+Warning: The row "Dodatniosc_magazynu(Galeria_ursynow,Niedziela,Miesne,0_dni)" with type >= is made obsolete because of row "Brak_pracy_fabryki_w_niedziele(Miesne,Galeria_ursynow)" with type = in the generated mathematical program "Maksymalizacja_zysku_podst_1", see also the option "Warning_duplicate_row".
+Warning: The row "Dodatniosc_magazynu(Galeria_ursynow,Niedziela,Grzybowe,0_dni)" with type >= is made obsolete because of row "Brak_pracy_fabryki_w_niedziele(Grzybowe,Galeria_ursynow)" with type = in the generated mathematical program "Maksymalizacja_zysku_podst_1", see also the option "Warning_duplicate_row".
+Warning: The row "Dodatniosc_magazynu(Galeria_ursynow,Niedziela,Serowe,0_dni)" with type >= is made obsolete because of row "Brak_pracy_fabryki_w_niedziele(Serowe,Galeria_ursynow)" with type = in the generated mathematical program "Maksymalizacja_zysku_podst_1", see also the option "Warning_duplicate_row".
+Warning: Only 3 out of 25 duplicate row warnings were reported. 
+See also option limit_reported_duplicate_column_row_warnings.
+Warning: The row "Dodatniosc_magazynu(Galeria_ursynow,Niedziela,Miesne,0_dni)" with type >= is made obsolete because of row "Brak_pracy_fabryki_w_niedziele(Miesne,Galeria_ursynow)" with type = in the generated mathematical program "Maksymalizacja_zysku_podst_1", see also the option "Warning_duplicate_row".
+Warning: The row "Dodatniosc_magazynu(Galeria_ursynow,Niedziela,Grzybowe,0_dni)" with type >= is made obsolete because of row "Brak_pracy_fabryki_w_niedziele(Grzybowe,Galeria_ursynow)" with type = in the generated mathematical program "Maksymalizacja_zysku_podst_1", see also the option "Warning_duplicate_row".
+Warning: The row "Dodatniosc_magazynu(Galeria_ursynow,Niedziela,Serowe,0_dni)" with type >= is made obsolete because of row "Brak_pracy_fabryki_w_niedziele(Serowe,Galeria_ursynow)" with type = in the generated mathematical program "Maksymalizacja_zysku_podst_1", see also the option "Warning_duplicate_row".
+Warning: Only 3 out of 25 duplicate row warnings were reported. 
+See also option limit_reported_duplicate_column_row_warnings.
+Warning: The row "Dodatniosc_magazynu(Galeria_ursynow,Niedziela,Miesne,0_dni)" with type >= is made obsolete because of row "Brak_pracy_fabryki_w_niedziele(Miesne,Galeria_ursynow)" with type = in the generated mathematical program "Maksymalizacja_zysku_podst_1", see also the option "Warning_duplicate_row".
+Warning: The row "Dodatniosc_magazynu(Galeria_ursynow,Niedziela,Grzybowe,0_dni)" with type >= is made obsolete because of row "Brak_pracy_fabryki_w_niedziele(Grzybowe,Galeria_ursynow)" with type = in the generated mathematical program "Maksymalizacja_zysku_podst_1", see also the option "Warning_duplicate_row".
+Warning: The row "Dodatniosc_magazynu(Galeria_ursynow,Niedziela,Serowe,0_dni)" with type >= is made obsolete because of row "Brak_pracy_fabryki_w_niedziele(Serowe,Galeria_ursynow)" with type = in the generated mathematical program "Maksymalizacja_zysku_podst_1", see also the option "Warning_duplicate_row".
+Warning: Only 3 out of 25 duplicate row warnings were reported. 
+See also option limit_reported_duplicate_column_row_warnings.
+Warning: The row "Dodatniosc_magazynu(Galeria_ursynow,Niedziela,Miesne,0_dni)" with type >= is made obsolete because of row "Brak_pracy_fabryki_w_niedziele(Miesne,Galeria_ursynow)" with type = in the generated mathematical program "Maksymalizacja_zysku_rozszerz_1", see also the option "Warning_duplicate_row".
+Warning: The row "Dodatniosc_magazynu(Galeria_ursynow,Niedziela,Grzybowe,0_dni)" with type >= is made obsolete because of row "Brak_pracy_fabryki_w_niedziele(Grzybowe,Galeria_ursynow)" with type = in the generated mathematical program "Maksymalizacja_zysku_rozszerz_1", see also the option "Warning_duplicate_row".
+Warning: The row "Dodatniosc_magazynu(Galeria_ursynow,Niedziela,Serowe,0_dni)" with type >= is made obsolete because of row "Brak_pracy_fabryki_w_niedziele(Serowe,Galeria_ursynow)" with type = in the generated mathematical program "Maksymalizacja_zysku_rozszerz_1", see also the option "Warning_duplicate_row".
+Warning: Only 3 out of 25 duplicate row warnings were reported. 
+See also option limit_reported_duplicate_column_row_warnings.
+Warning: The row "Dodatniosc_magazynu(Galeria_ursynow,Niedziela,Miesne,0_dni)" with type >= is made obsolete because of row "Brak_pracy_fabryki_w_niedziele(Miesne,Galeria_ursynow)" with type = in the generated mathematical program "Maksymalizacja_zysku_rozszerz_1", see also the option "Warning_duplicate_row".
+Warning: The row "Dodatniosc_magazynu(Galeria_ursynow,Niedziela,Grzybowe,0_dni)" with type >= is made obsolete because of row "Brak_pracy_fabryki_w_niedziele(Grzybowe,Galeria_ursynow)" with type = in the generated mathematical program "Maksymalizacja_zysku_rozszerz_1", see also the option "Warning_duplicate_row".
+Warning: The row "Dodatniosc_magazynu(Galeria_ursynow,Niedziela,Serowe,0_dni)" with type >= is made obsolete because of row "Brak_pracy_fabryki_w_niedziele(Serowe,Galeria_ursynow)" with type = in the generated mathematical program "Maksymalizacja_zysku_rozszerz_1", see also the option "Warning_duplicate_row".
+Warning: Only 3 out of 28 duplicate row warnings were reported. 
+See also option limit_reported_duplicate_column_row_warnings.
+Warning: The row "Dodatniosc_magazynu(Galeria_ursynow,Niedziela,Miesne,0_dni)" with type >= is made obsolete because of row "Brak_pracy_fabryki_w_niedziele(Miesne,Galeria_ursynow)" with type = in the generated mathematical program "Maksymalizacja_zysku_podst_1", see also the option "Warning_duplicate_row".
+Warning: The row "Dodatniosc_magazynu(Galeria_ursynow,Niedziela,Grzybowe,0_dni)" with type >= is made obsolete because of row "Brak_pracy_fabryki_w_niedziele(Grzybowe,Galeria_ursynow)" with type = in the generated mathematical program "Maksymalizacja_zysku_podst_1", see also the option "Warning_duplicate_row".
+Warning: The row "Dodatniosc_magazynu(Galeria_ursynow,Niedziela,Serowe,0_dni)" with type >= is made obsolete because of row "Brak_pracy_fabryki_w_niedziele(Serowe,Galeria_ursynow)" with type = in the generated mathematical program "Maksymalizacja_zysku_podst_1", see also the option "Warning_duplicate_row".
+Warning: Only 3 out of 28 duplicate row warnings were reported. 
+See also option limit_reported_duplicate_column_row_warnings.
+Warning: The row "Dodatniosc_magazynu(Galeria_ursynow,Niedziela,Miesne,0_dni)" with type >= is made obsolete because of row "Brak_pracy_fabryki_w_niedziele(Miesne,Galeria_ursynow)" with type = in the generated mathematical program "Maksymalizacja_zysku_rozszerz_1", see also the option "Warning_duplicate_row".
+Warning: The row "Dodatniosc_magazynu(Galeria_ursynow,Niedziela,Grzybowe,0_dni)" with type >= is made obsolete because of row "Brak_pracy_fabryki_w_niedziele(Grzybowe,Galeria_ursynow)" with type = in the generated mathematical program "Maksymalizacja_zysku_rozszerz_1", see also the option "Warning_duplicate_row".
+Warning: The row "Dodatniosc_magazynu(Galeria_ursynow,Niedziela,Serowe,0_dni)" with type >= is made obsolete because of row "Brak_pracy_fabryki_w_niedziele(Serowe,Galeria_ursynow)" with type = in the generated mathematical program "Maksymalizacja_zysku_rozszerz_1", see also the option "Warning_duplicate_row".
+Warning: Only 3 out of 28 duplicate row warnings were reported. 
+See also option limit_reported_duplicate_column_row_warnings.

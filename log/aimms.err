@@ -1,34 +1,128 @@
+Semantic error at line 119, column 5.
+The index "i" already has a scope.
+Usage of the GAMS language in an AIMMS model at line 124, column 5.
+The set "Wiek_pierogow" is used as a running index.
+Usage of the GAMS language in an AIMMS model at line 129, column 5.
+The set "Wiek_pierogow" is used as a running index.
+Semantic error at line 178, column 5.
+The index "i" already has a scope.
+Semantic error at line 193, column 23.
+The index "i" already has a scope.
 Semantic error.
-The undeclared "i" is not an index.
-Semantic error at line 113, column 1.
-The identifier "i" has not been declared.
-Semantic error at line 115, column 1.
-The undeclared "i" is not an index.
-Semantic error at line 116, column 1.
-The identifier "i" has not been declared.
-Semantic error at line 125, column 1.
-The undeclared "i" is not an index.
-Semantic error at line 125, column 1.
-The identifier "i" has not been declared.
-Semantic error at line 422, column 1.
-The mandatory attribute "subset of" of set "Wiek_pierogow" has not been specified.
-Semantic error at line 422, column 1.
-The mandatory attribute "subset of" of set "Wiek_pierogow" has not been specified.
-Semantic error at line 432, column 1.
-The mandatory attribute "subset of" of set "Wiek_pierogow" has not been specified.
-Semantic error at line 496, column 10.
-The mandatory attribute "subset of" of set "Wiek_pierogow" has not been specified.
-Semantic error at line 506, column 1.
-The mandatory attribute "subset of" of set "Wiek_pierogow" has not been specified.
-Semantic error at line 566, column 1.
-The mandatory attribute "subset of" of set "Wiek_pierogow" has not been specified.
-Semantic error at line 568, column 1.
-The mandatory attribute "subset of" of set "Wiek_pierogow" has not been specified.
-Semantic error at line 570, column 1.
-The mandatory attribute "subset of" of set "Wiek_pierogow" has not been specified.
-Usage of the GAMS language in an AIMMS model at line 599.
-The undeclared identifier "~i" is used as a running index.
-Usage of the GAMS language in an AIMMS model at line 603, column 1.
-The undeclared identifier "~i" is used as a running index.
-Domain violation at line 917, column 79.
-The scope of index "r" has not been specified.
+The undeclared "" is not an index.
+Domain violation at line 392, column 3.
+The scope of index "s" has not been specified.
+Domain violation at line 397, column 1.
+The expression "6" cannot be used for indexing.
+Domain violation at line 402, column 10.
+The scope of set "Dni_pracy" has not been specified.
+Domain violation at line 405, column 10.
+The scope of set "Dni_pracy" has not been specified.
+Domain violation at line 492, column 10.
+The scope of set "Dni_pracy" has not been specified.
+Domain violation at line 521, column 10.
+The scope of set "Dni_pracy" has not been specified.
+Domain violation at line 608, column 10.
+The scope of set "Dni_pracy" has not been specified.
+Domain violation at line 631, column 10.
+The scope of set "Dni_pracy" has not been specified.
+Domain violation at line 718, column 10.
+The scope of set "Dni_pracy" has not been specified.
+Domain violation at line 749, column 10.
+The scope of set "Dni_pracy" has not been specified.
+Domain violation at line 752, column 10.
+The scope of set "Dni_pracy" has not been specified.
+Domain violation at line 755, column 10.
+The scope of set "Dni_pracy" has not been specified.
+Syntax error at line 762, column 6.
+The symbol "last" is not expected.
+Syntax error at line 765, column 6.
+The symbol "last" is not expected.
+Syntax error at line 768, column 6.
+The symbol "last" is not expected.
+Domain violation at line 779, column 10.
+The scope of set "Dni_pracy" has not been specified.
+Syntax error at line 782, column 19.
+The symbol "-" is not expected.
+Usage of the GAMS language in an AIMMS model at line 799, column 5.
+The set "Wiek_pierogow" is used as a running index.
+Warning at line 1 in user-defined function section "MainExecution".
+The row "Dodatniosc_magazynu(Galeria_ursynow,Niedziela,Miesne,0_dni)" with type >= is made obsolete because of row "Brak_pracy_fabryki_w_niedziele(Miesne,Galeria_ursynow)" with type = in the generated mathematical program "Maksymalizacja_zysku_podst_1", see also the option "Warning_duplicate_row".
+Warning at line 1 in user-defined function section "MainExecution".
+The row "Dodatniosc_magazynu(Galeria_ursynow,Niedziela,Grzybowe,0_dni)" with type >= is made obsolete because of row "Brak_pracy_fabryki_w_niedziele(Grzybowe,Galeria_ursynow)" with type = in the generated mathematical program "Maksymalizacja_zysku_podst_1", see also the option "Warning_duplicate_row".
+Warning at line 1 in user-defined function section "MainExecution".
+The row "Dodatniosc_magazynu(Galeria_ursynow,Niedziela,Serowe,0_dni)" with type >= is made obsolete because of row "Brak_pracy_fabryki_w_niedziele(Serowe,Galeria_ursynow)" with type = in the generated mathematical program "Maksymalizacja_zysku_podst_1", see also the option "Warning_duplicate_row".
+Warning at line 1 in user-defined function section "MainExecution".
+Only 3 out of 25 duplicate row warnings were reported.  See also option limit_reported_duplicate_column_row_warnings.
+Warning at line 1 in user-defined function section "MainExecution".
+The row "Dodatniosc_magazynu(Galeria_ursynow,Niedziela,Miesne,0_dni)" with type >= is made obsolete because of row "Brak_pracy_fabryki_w_niedziele(Miesne,Galeria_ursynow)" with type = in the generated mathematical program "Maksymalizacja_zysku_podst_1", see also the option "Warning_duplicate_row".
+Warning at line 1 in user-defined function section "MainExecution".
+The row "Dodatniosc_magazynu(Galeria_ursynow,Niedziela,Grzybowe,0_dni)" with type >= is made obsolete because of row "Brak_pracy_fabryki_w_niedziele(Grzybowe,Galeria_ursynow)" with type = in the generated mathematical program "Maksymalizacja_zysku_podst_1", see also the option "Warning_duplicate_row".
+Warning at line 1 in user-defined function section "MainExecution".
+The row "Dodatniosc_magazynu(Galeria_ursynow,Niedziela,Serowe,0_dni)" with type >= is made obsolete because of row "Brak_pracy_fabryki_w_niedziele(Serowe,Galeria_ursynow)" with type = in the generated mathematical program "Maksymalizacja_zysku_podst_1", see also the option "Warning_duplicate_row".
+Warning at line 1 in user-defined function section "MainExecution".
+Only 3 out of 25 duplicate row warnings were reported.  See also option limit_reported_duplicate_column_row_warnings.
+Warning at line 1 in user-defined function section "MainExecution".
+The row "Dodatniosc_magazynu(Galeria_ursynow,Niedziela,Miesne,0_dni)" with type >= is made obsolete because of row "Brak_pracy_fabryki_w_niedziele(Miesne,Galeria_ursynow)" with type = in the generated mathematical program "Maksymalizacja_zysku_podst_1", see also the option "Warning_duplicate_row".
+Warning at line 1 in user-defined function section "MainExecution".
+The row "Dodatniosc_magazynu(Galeria_ursynow,Niedziela,Grzybowe,0_dni)" with type >= is made obsolete because of row "Brak_pracy_fabryki_w_niedziele(Grzybowe,Galeria_ursynow)" with type = in the generated mathematical program "Maksymalizacja_zysku_podst_1", see also the option "Warning_duplicate_row".
+Warning at line 1 in user-defined function section "MainExecution".
+The row "Dodatniosc_magazynu(Galeria_ursynow,Niedziela,Serowe,0_dni)" with type >= is made obsolete because of row "Brak_pracy_fabryki_w_niedziele(Serowe,Galeria_ursynow)" with type = in the generated mathematical program "Maksymalizacja_zysku_podst_1", see also the option "Warning_duplicate_row".
+Warning at line 1 in user-defined function section "MainExecution".
+Only 3 out of 25 duplicate row warnings were reported.  See also option limit_reported_duplicate_column_row_warnings.
+Warning at line 1 in user-defined function section "MainExecution".
+The row "Dodatniosc_magazynu(Galeria_ursynow,Niedziela,Miesne,0_dni)" with type >= is made obsolete because of row "Brak_pracy_fabryki_w_niedziele(Miesne,Galeria_ursynow)" with type = in the generated mathematical program "Maksymalizacja_zysku_podst_1", see also the option "Warning_duplicate_row".
+Warning at line 1 in user-defined function section "MainExecution".
+The row "Dodatniosc_magazynu(Galeria_ursynow,Niedziela,Grzybowe,0_dni)" with type >= is made obsolete because of row "Brak_pracy_fabryki_w_niedziele(Grzybowe,Galeria_ursynow)" with type = in the generated mathematical program "Maksymalizacja_zysku_podst_1", see also the option "Warning_duplicate_row".
+Warning at line 1 in user-defined function section "MainExecution".
+The row "Dodatniosc_magazynu(Galeria_ursynow,Niedziela,Serowe,0_dni)" with type >= is made obsolete because of row "Brak_pracy_fabryki_w_niedziele(Serowe,Galeria_ursynow)" with type = in the generated mathematical program "Maksymalizacja_zysku_podst_1", see also the option "Warning_duplicate_row".
+Warning at line 1 in user-defined function section "MainExecution".
+Only 3 out of 25 duplicate row warnings were reported.  See also option limit_reported_duplicate_column_row_warnings.
+Warning at line 1 in user-defined function section "MainExecution".
+The row "Dodatniosc_magazynu(Galeria_ursynow,Niedziela,Miesne,0_dni)" with type >= is made obsolete because of row "Brak_pracy_fabryki_w_niedziele(Miesne,Galeria_ursynow)" with type = in the generated mathematical program "Maksymalizacja_zysku_rozszerz_1", see also the option "Warning_duplicate_row".
+Warning at line 1 in user-defined function section "MainExecution".
+The row "Dodatniosc_magazynu(Galeria_ursynow,Niedziela,Grzybowe,0_dni)" with type >= is made obsolete because of row "Brak_pracy_fabryki_w_niedziele(Grzybowe,Galeria_ursynow)" with type = in the generated mathematical program "Maksymalizacja_zysku_rozszerz_1", see also the option "Warning_duplicate_row".
+Warning at line 1 in user-defined function section "MainExecution".
+The row "Dodatniosc_magazynu(Galeria_ursynow,Niedziela,Serowe,0_dni)" with type >= is made obsolete because of row "Brak_pracy_fabryki_w_niedziele(Serowe,Galeria_ursynow)" with type = in the generated mathematical program "Maksymalizacja_zysku_rozszerz_1", see also the option "Warning_duplicate_row".
+Warning at line 1 in user-defined function section "MainExecution".
+Only 3 out of 25 duplicate row warnings were reported.  See also option limit_reported_duplicate_column_row_warnings.
+Warning at line 1 in user-defined function section "MainExecution".
+The row "Dodatniosc_magazynu(Galeria_ursynow,Niedziela,Miesne,0_dni)" with type >= is made obsolete because of row "Brak_pracy_fabryki_w_niedziele(Miesne,Galeria_ursynow)" with type = in the generated mathematical program "Maksymalizacja_zysku_rozszerz_1", see also the option "Warning_duplicate_row".
+Warning at line 1 in user-defined function section "MainExecution".
+The row "Dodatniosc_magazynu(Galeria_ursynow,Niedziela,Grzybowe,0_dni)" with type >= is made obsolete because of row "Brak_pracy_fabryki_w_niedziele(Grzybowe,Galeria_ursynow)" with type = in the generated mathematical program "Maksymalizacja_zysku_rozszerz_1", see also the option "Warning_duplicate_row".
+Warning at line 1 in user-defined function section "MainExecution".
+The row "Dodatniosc_magazynu(Galeria_ursynow,Niedziela,Serowe,0_dni)" with type >= is made obsolete because of row "Brak_pracy_fabryki_w_niedziele(Serowe,Galeria_ursynow)" with type = in the generated mathematical program "Maksymalizacja_zysku_rozszerz_1", see also the option "Warning_duplicate_row".
+Warning at line 1 in user-defined function section "MainExecution".
+Only 3 out of 28 duplicate row warnings were reported.  See also option limit_reported_duplicate_column_row_warnings.
+Warning at line 1 in user-defined function section "MainExecution".
+The row "Dodatniosc_magazynu(Galeria_ursynow,Niedziela,Miesne,0_dni)" with type >= is made obsolete because of row "Brak_pracy_fabryki_w_niedziele(Miesne,Galeria_ursynow)" with type = in the generated mathematical program "Maksymalizacja_zysku_podst_1", see also the option "Warning_duplicate_row".
+Warning at line 1 in user-defined function section "MainExecution".
+The row "Dodatniosc_magazynu(Galeria_ursynow,Niedziela,Grzybowe,0_dni)" with type >= is made obsolete because of row "Brak_pracy_fabryki_w_niedziele(Grzybowe,Galeria_ursynow)" with type = in the generated mathematical program "Maksymalizacja_zysku_podst_1", see also the option "Warning_duplicate_row".
+Warning at line 1 in user-defined function section "MainExecution".
+The row "Dodatniosc_magazynu(Galeria_ursynow,Niedziela,Serowe,0_dni)" with type >= is made obsolete because of row "Brak_pracy_fabryki_w_niedziele(Serowe,Galeria_ursynow)" with type = in the generated mathematical program "Maksymalizacja_zysku_podst_1", see also the option "Warning_duplicate_row".
+Warning at line 1 in user-defined function section "MainExecution".
+Only 3 out of 28 duplicate row warnings were reported.  See also option limit_reported_duplicate_column_row_warnings.
+Warning at line 2 in user-defined function section "MainExecution".
+The row "Dodatniosc_magazynu(Galeria_ursynow,Niedziela,Miesne,0_dni)" with type >= is made obsolete because of row "Brak_pracy_fabryki_w_niedziele(Miesne,Galeria_ursynow)" with type = in the generated mathematical program "Maksymalizacja_zysku_rozszerz_1", see also the option "Warning_duplicate_row".
+Warning at line 2 in user-defined function section "MainExecution".
+The row "Dodatniosc_magazynu(Galeria_ursynow,Niedziela,Grzybowe,0_dni)" with type >= is made obsolete because of row "Brak_pracy_fabryki_w_niedziele(Grzybowe,Galeria_ursynow)" with type = in the generated mathematical program "Maksymalizacja_zysku_rozszerz_1", see also the option "Warning_duplicate_row".
+Warning at line 2 in user-defined function section "MainExecution".
+The row "Dodatniosc_magazynu(Galeria_ursynow,Niedziela,Serowe,0_dni)" with type >= is made obsolete because of row "Brak_pracy_fabryki_w_niedziele(Serowe,Galeria_ursynow)" with type = in the generated mathematical program "Maksymalizacja_zysku_rozszerz_1", see also the option "Warning_duplicate_row".
+Warning at line 2 in user-defined function section "MainExecution".
+Only 3 out of 28 duplicate row warnings were reported.  See also option limit_reported_duplicate_column_row_warnings.
+Syntax error at line 1424.
+End of file encountered in comment.
+Syntax error at line 1428.
+End of file encountered in comment.
+Syntax error at line 1432.
+End of file encountered in comment.
+Syntax error at line 1436.
+End of file encountered in comment.
+Syntax error at line 1440.
+End of file encountered in comment.
+Syntax error at line 1444.
+End of file encountered in comment.
+Syntax error at line 1448.
+End of file encountered in comment.
+Syntax error at line 1453, column 50.
+Unexpected end of the definition of constraint "Ogr_na_produkcje".

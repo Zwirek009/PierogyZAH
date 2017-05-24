@@ -37,12 +37,8 @@ Model Main_Pierogy {
     Parameter Pojemnosc_magazynu {
         IndexDomain: s;
     }
-    Parameter Min_zamowienie {
-        IndexDomain: r;
-    }
-    Parameter Max_zamowienie {
-        IndexDomain: r;
-    }
+    Parameter Min_zamowienie;
+    Parameter Max_zamowienie;
     Variable a {
         IndexDomain: (d,r,s);
         Range: integer;
@@ -82,6 +78,51 @@ Model Main_Pierogy {
         Definition: a(d,r,s)=sum[f, x(d,f,r,s)];
         Comment: "Suma sprzedanych pierogów w sklepie s jest równa liczbie wyprodukowanych pierogów dla tego sklepu przez wszystkie fabryki w ciągu tego samego dnia.";
     }
+    Constraint Pozostale_na_nastepny_dzien {
+        IndexDomain: (s,r,d,i);
+        Definition: y(s,d+1,r,i+1)=y(s,d,r,i)-z(s,d,r,i);
+        Comment: "Na następny dzień zostaje w magazynie różnica pomiędzy ilością przechowywanych a ilością sprzedanych w dniu poprzednim.";
+    }
+    Constraint Maksimum_sprzedanych_dziennie {
+        IndexDomain: (s,d,r);
+        Definition: sum[i, z(s,d,r,i)]<=Zapotrzebowanie(d,r,s);
+        Comment: "Każdego dnia d można maksymalnie sprzedać Zsdr pierogów rodzaju r w sklepie s.";
+    }
+    Constraint Zmarnowane_pierogi {
+        IndexDomain: (s,d,r);
+        Definition: w(s,d,r)=y(s,d,r,last(wiek_pierogow))-z(s,d,r,last(wiek_pierogow));
+        Comment: "Ilość zmarnowanych pierogów w dniu d to ilość niewykorzystanych starych pierogów.";
+    }
+    Constraint Sprzedaz_a_stan_magazynu {
+        IndexDomain: (s,d,r,i);
+        Definition: z(s,d,r,i)<=y(s,d,r,i);
+        Comment: "Nie można sprzedać więcej pierogów leżących i-dni niż jest ich w magazynie.";
+    }
+    Constraint Dodatniosc_magazynu {
+        IndexDomain: (s,d,r,i);
+        Definition: y(s,d,r,i)>=0;
+        Comment: "W magazynie nie może znajdować się ujemna liczba leżących i-dni pierogów.";
+    }
+    Constraint Min_zamowionych {
+        IndexDomain: (s,d);
+        Definition: sum[r, y(s,d,r,first(Wiek_pierogow))]>=mala_delta(d,s)*Min_zamowienie;
+        Comment: "Każdego dnia można zamówić zero lub co najmniej MINpierogów.";
+    }
+    Constraint Max_zamowionych {
+        IndexDomain: (s,d);
+        Definition: sum[r, y(s,d,r,first(Wiek_pierogow))]<=mala_delta(d,s)*Max_zamowienie;
+        Comment: "Każdego dnia nie można zamówić więcej niż MAX pierogów.";
+    }
+    Constraint Brak_pracy_fabryki_w_niedziele {
+        IndexDomain: (r,s);
+        Definition: y(s,last(Dni_pracy),r,first(Wiek_pierogow))=0;
+        Comment: "W niedzielę fabryka nie pracuje.";
+    }
+    Constraint Max_pojemnosc_magazynu {
+        IndexDomain: (s,d,r);
+        Definition: sum[i, y(s,d,r,i)]<=Pojemnosc_magazynu(s);
+        Comment: "W magazynie każdego dnia nie może być przechowywane więcej niż CAP pierogów.";
+    }
     Variable x {
         IndexDomain: (d,f,r,s);
         Range: integer;
@@ -103,6 +144,13 @@ Model Main_Pierogy {
         Variables: AllVariables;
         Type: MIP;
     }
+    MathematicalProgram Maksymalizacja_zysku_rozszerz_1 {
+        Objective: Zysk_rozsz_1;
+        Direction: maximize;
+        Constraints: AllConstraints;
+        Variables: AllVariables;
+        Type: MIP;
+    }
     Procedure MainInitialization {
         Comment: "Add initialization statements here that do NOT require any library being initialized already.";
     }
@@ -115,6 +163,7 @@ Model Main_Pierogy {
     Procedure MainExecution {
         Body: {
             solve Maksymalizacja_zysku_podst_1;
+            solve Maksymalizacja_zysku_rozszerz_1;
         }
     }
     Procedure PreMainTermination {
