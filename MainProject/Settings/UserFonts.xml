@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<UserFonts>
+	<UserFont Name="Main Font" FaceName="Arial" PointSize="80" UUID="00000000-0000-0000-0000-000000000001" />
+	<UserFont Name="zysk" FaceName="Arial" PointSize="100" Bold="true" UUID="854B6995-BAF3-41B7-B389-A0359B11F8FB" InternalID="1" />
+</UserFonts>

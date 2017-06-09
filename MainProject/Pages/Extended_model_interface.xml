@@ -1,0 +1,241 @@
+<?xml version="1.0"?>
+<Page Version="4000" TimeStamp="2017-05-24 11:54:39">
+	<PageEditSize Type="Inherited" />
+	<ProjectUUID>275113E8-B5F9-4B3B-81B4-D9F58945D5E5</ProjectUUID>
+	<TemplatesTabOrderPosition>1</TemplatesTabOrderPosition>
+	<Background Inherited="true" />
+	<PageObject Type="Bar Chart">
+		<Location top="12" left="12" bottom="312" right="420" />
+		<TabOrder>1</TabOrder>
+		<Font GUID="00000000-0000-0000-0000-000000000001" Name="Main Font" />
+		<Border Style="InShadow" Width="2" MarginTop="5" MarginRight="5" MarginBottom="5" MarginLeft="5" />
+		<BackgroundColor RGB="#ffffff" />
+		<ColorScheme Number="0" />
+		<Title>true</Title>
+		<Legend>true</Legend>
+		<Y-Labels>true</Y-Labels>
+		<X-Labels>true</X-Labels>
+		<HorizontalGridLines>true</HorizontalGridLines>
+		<StatusLine>true</StatusLine>
+		<ExplicitIdentifier>
+			<Identifier>Cena( s, r )</Identifier>
+		</ExplicitIdentifier>
+		<FillWithColor>true</FillWithColor>
+		<Overlap>0</Overlap>
+	</PageObject>
+	<PageObject Type="Button">
+		<Location top="390" left="12" bottom="456" right="162" />
+		<TabOrder>2</TabOrder>
+		<LeaveOnEnter>false</LeaveOnEnter>
+		<ButtonType>Text</ButtonType>
+		<Title>"Solve"</Title>
+		<BackgroundColor RGB="#00ff00" />
+		<Font GUID="00000000-0000-0000-0000-000000000001" Name="Main Font" />
+		<ActionSequence>
+			<Action Type="Run">
+				<RunWhat>SpecificProcecure</RunWhat>
+				<Procedure>MainExecution</Procedure>
+				<AbortOnError>true</AbortOnError>
+			</Action>
+		</ActionSequence>
+	</PageObject>
+	<PageObject Type="Table">
+		<Location top="318" left="12" bottom="384" right="420" />
+		<TabOrder>3</TabOrder>
+		<Font GUID="00000000-0000-0000-0000-000000000001" Name="Main Font" />
+		<Border Style="InShadow" Width="2" MarginTop="5" MarginRight="5" MarginBottom="5" MarginLeft="5" />
+		<BackgroundColor RGB="#ffffff" />
+		<RowIndentation>3</RowIndentation>
+		<AllHorizontalGridLines>true</AllHorizontalGridLines>
+		<AllVerticalGridLines>true</AllVerticalGridLines>
+		<ExplicitIdentifier>
+			<Identifier>Cena( s, r )</Identifier>
+			<FirstColumn>1</FirstColumn>
+			<NumberFormat Width="5" Decimals="1" />
+		</ExplicitIdentifier>
+	</PageObject>
+	<PageObject Type="Bar Chart">
+		<Location top="12" left="426" bottom="312" right="720" />
+		<TabOrder>5</TabOrder>
+		<Font GUID="00000000-0000-0000-0000-000000000001" Name="Main Font" />
+		<Border Style="InShadow" Width="2" MarginTop="5" MarginRight="5" MarginBottom="5" MarginLeft="5" />
+		<BackgroundColor RGB="#ffffff" />
+		<ColorScheme Number="0" />
+		<Title>true</Title>
+		<Legend>true</Legend>
+		<Y-Labels>true</Y-Labels>
+		<X-Labels>true</X-Labels>
+		<HorizontalGridLines>true</HorizontalGridLines>
+		<StatusLine>true</StatusLine>
+		<ExplicitIdentifier>
+			<Identifier>Globalny_koszt_produkcji( r )</Identifier>
+		</ExplicitIdentifier>
+		<FillWithColor>true</FillWithColor>
+	</PageObject>
+	<PageObject Type="Bar Chart">
+		<Location top="12" left="726" bottom="312" right="1008" />
+		<TabOrder>4</TabOrder>
+		<Font GUID="00000000-0000-0000-0000-000000000001" Name="Main Font" />
+		<Border Style="InShadow" Width="2" MarginTop="5" MarginRight="5" MarginBottom="5" MarginLeft="5" />
+		<BackgroundColor RGB="#ffffff" />
+		<ColorScheme Number="0" />
+		<Title>true</Title>
+		<Legend>true</Legend>
+		<Y-Labels>true</Y-Labels>
+		<X-Labels>true</X-Labels>
+		<HorizontalGridLines>true</HorizontalGridLines>
+		<StatusLine>true</StatusLine>
+		<ExplicitIdentifier>
+			<Identifier>Koszt_transportu_1do1( s )</Identifier>
+		</ExplicitIdentifier>
+		<FillWithColor>true</FillWithColor>
+	</PageObject>
+	<PageObject Type="Table">
+		<Location top="12" left="1014" bottom="180" right="1392" />
+		<TabOrder>6</TabOrder>
+		<Font GUID="00000000-0000-0000-0000-000000000001" Name="Main Font" />
+		<Border Style="InShadow" Width="2" MarginTop="5" MarginRight="5" MarginBottom="5" MarginLeft="5" />
+		<BackgroundColor RGB="#ffffff" />
+		<RowIndentation>3</RowIndentation>
+		<AllHorizontalGridLines>true</AllHorizontalGridLines>
+		<AllVerticalGridLines>true</AllVerticalGridLines>
+		<ExplicitIdentifier>
+			<Identifier>Zapotrzebowanie( s, d, r )</Identifier>
+			<FirstColumn>2</FirstColumn>
+			<NumberFormat Width="4" Decimals="0" />
+		</ExplicitIdentifier>
+	</PageObject>
+	<PageObject Type="Scalar">
+		<Location top="390" left="168" bottom="456" right="420" />
+		<TabOrder>7</TabOrder>
+		<Font GUID="854B6995-BAF3-41B7-B389-A0359B11F8FB" Name="zysk" />
+		<Border Style="InShadow" Width="2" MarginTop="5" MarginRight="5" MarginBottom="5" MarginLeft="5" />
+		<BackgroundColor RGB="#ff00ff" />
+		<Layout>Text-Value</Layout>
+		<SeparatorSign>=</SeparatorSign>
+		<ExplicitIdentifier>
+			<Identifier>Zysk_rozsz_1</Identifier>
+			<NumberFormat Width="4" Decimals="0" Scientific="IfTooSmallorLarge" Alignment="Center" ShowDefaults="true" />
+		</ExplicitIdentifier>
+	</PageObject>
+	<PageObject Type="Table">
+		<Location top="462" left="12" bottom="642" right="702" />
+		<TabOrder>8</TabOrder>
+		<Font GUID="00000000-0000-0000-0000-000000000001" Name="Main Font" />
+		<Border Style="InShadow" Width="2" MarginTop="5" MarginRight="5" MarginBottom="5" MarginLeft="5" />
+		<BackgroundColor RGB="#80ffff" />
+		<RowIndentation>3</RowIndentation>
+		<AllHorizontalGridLines>true</AllHorizontalGridLines>
+		<ExplicitIdentifier>
+			<Identifier>z( s, d, r, i )</Identifier>
+			<FirstColumn>2</FirstColumn>
+			<IdentifierTextInTitle>true</IdentifierTextInTitle>
+			<HeaderText>"Ilość sprzedanych z podziałem na wiek produktu"</HeaderText>
+			<NumberFormat Width="4" Decimals="0" Alignment="Center" />
+		</ExplicitIdentifier>
+	</PageObject>
+	<PageObject Type="Table">
+		<Location top="462" left="708" bottom="642" right="1398" />
+		<TabOrder>9</TabOrder>
+		<Font GUID="00000000-0000-0000-0000-000000000001" Name="Main Font" />
+		<Border Style="InShadow" Width="2" MarginTop="5" MarginRight="5" MarginBottom="5" MarginLeft="5" />
+		<BackgroundColor RGB="#80ffff" />
+		<RowIndentation>3</RowIndentation>
+		<AllHorizontalGridLines>true</AllHorizontalGridLines>
+		<ExplicitIdentifier>
+			<Identifier>y( s, d, r, i )</Identifier>
+			<FirstColumn>2</FirstColumn>
+			<HeaderText>"Stan magazynu na otwarcie dnia z podziałem na wiek produktu ( 0_dni == dzisiejsza dostawa )"</HeaderText>
+			<NumberFormat Width="4" Decimals="0" />
+		</ExplicitIdentifier>
+	</PageObject>
+	<PageObject Type="Table">
+		<Location top="390" left="426" bottom="456" right="1008" />
+		<TabOrder>12</TabOrder>
+		<Font GUID="00000000-0000-0000-0000-000000000001" Name="Main Font" />
+		<Border Style="InShadow" Width="2" MarginTop="5" MarginRight="5" MarginBottom="5" MarginLeft="5" />
+		<BackgroundColor RGB="#80ffff" />
+		<RowIndentation>3</RowIndentation>
+		<ExplicitIdentifier>
+			<Identifier>mala_delta( s, d )</Identifier>
+			<FirstColumn>1</FirstColumn>
+			<HeaderText>"Obecność dostawy w poszczególnych dniach"</HeaderText>
+			<NumberFormat Width="3" Decimals="0" />
+		</ExplicitIdentifier>
+	</PageObject>
+	<PageObject Type="Scalar">
+		<Location top="318" left="426" bottom="348" right="720" />
+		<TabOrder>10</TabOrder>
+		<Font GUID="00000000-0000-0000-0000-000000000001" Name="Main Font" />
+		<Border Style="InShadow" Width="2" MarginTop="5" MarginRight="5" MarginBottom="5" MarginLeft="5" />
+		<BackgroundColor RGB="#ffffff" />
+		<Layout>Text-Value</Layout>
+		<SeparatorSign>=</SeparatorSign>
+		<ExplicitIdentifier>
+			<Identifier>Min_zamowienie</Identifier>
+			<NumberFormat Width="5" Decimals="1" Scientific="IfTooSmallorLarge" Alignment="Center" ShowDefaults="true" />
+		</ExplicitIdentifier>
+	</PageObject>
+	<PageObject Type="Scalar">
+		<Location top="354" left="426" bottom="384" right="720" />
+		<TabOrder>11</TabOrder>
+		<Font GUID="00000000-0000-0000-0000-000000000001" Name="Main Font" />
+		<Border Style="InShadow" Width="2" MarginTop="5" MarginRight="5" MarginBottom="5" MarginLeft="5" />
+		<BackgroundColor RGB="#ffffff" />
+		<Layout>Text-Value</Layout>
+		<SeparatorSign>=</SeparatorSign>
+		<ExplicitIdentifier>
+			<Identifier>Max_zamowienie</Identifier>
+			<NumberFormat Width="4" Decimals="0" Scientific="IfTooSmallorLarge" Alignment="Center" ShowDefaults="true" />
+		</ExplicitIdentifier>
+	</PageObject>
+	<PageObject Type="Table">
+		<Location top="186" left="1014" bottom="456" right="1392" />
+		<TabOrder>13</TabOrder>
+		<Font GUID="00000000-0000-0000-0000-000000000001" Name="Main Font" />
+		<Border Style="InShadow" Width="2" MarginTop="5" MarginRight="5" MarginBottom="5" MarginLeft="5" />
+		<BackgroundColor RGB="#80ffff" />
+		<RowIndentation>3</RowIndentation>
+		<AllHorizontalGridLines>true</AllHorizontalGridLines>
+		<ExplicitIdentifier>
+			<Identifier>w( s, d, r )</Identifier>
+			<FirstColumn>2</FirstColumn>
+			<HeaderText>"Ilość straconych produktów"</HeaderText>
+			<NumberFormat Width="4" Decimals="0" />
+		</ExplicitIdentifier>
+	</PageObject>
+	<PageObject Type="Table">
+		<Location top="318" left="726" bottom="384" right="1008" />
+		<TabOrder>14</TabOrder>
+		<Font GUID="00000000-0000-0000-0000-000000000001" Name="Main Font" />
+		<Border Style="InShadow" Width="2" MarginTop="5" MarginRight="5" MarginBottom="5" MarginLeft="5" />
+		<BackgroundColor RGB="#ffffff" />
+		<RowIndentation>3</RowIndentation>
+		<ExplicitIdentifier>
+			<Identifier>Pojemnosc_magazynu( s )</Identifier>
+			<FirstColumn>1</FirstColumn>
+			<NumberFormat Width="4" Decimals="0" />
+		</ExplicitIdentifier>
+	</PageObject>
+	<UsedReferences>
+		<Model>
+			<Symbol>Cena</Symbol>
+			<Symbol>Zapotrzebowanie</Symbol>
+			<Symbol>Globalny_koszt_produkcji</Symbol>
+			<Symbol>Koszt_transportu_1do1</Symbol>
+			<Symbol>Pojemnosc_magazynu</Symbol>
+			<Symbol>Min_zamowienie</Symbol>
+			<Symbol>Max_zamowienie</Symbol>
+			<Symbol>y</Symbol>
+			<Symbol>w</Symbol>
+			<Symbol>z</Symbol>
+			<Symbol>mala_delta</Symbol>
+			<Symbol>Zysk_rozsz_1</Symbol>
+			<Symbol>MainExecution</Symbol>
+			<Symbol>s</Symbol>
+			<Symbol>r</Symbol>
+			<Symbol>d</Symbol>
+			<Symbol>i</Symbol>
+		</Model>
+	</UsedReferences>
+</Page>
